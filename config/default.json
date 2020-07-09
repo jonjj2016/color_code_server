@@ -1,6 +1,6 @@
 {
-
-    "port": "https://colorcode2020.herokuapp.com",
+    "host": "localhost",
+    "port": "3030",
     "public": "../public/",
     "paginate": {
         "default": 10,
@@ -35,5 +35,8 @@
             }
         }
     },
-    "mongodb": "mongodb://localhost:27017/server"
+    // "mongodb": "mongodb://localhost:27017/server"
+
+    "mongodb": " mongodb+srv://jonmartirosyan:jonmartirosyan@cluster0.m5qqf.mongodb.net/color_code?retryWrites=true&w=majority"
 }
+// mongodb+srv://jonmartirosyan2016:<password>@cluster0.m5qqf.mongodb.net/<dbname>?retryWrites=true&w=majority
